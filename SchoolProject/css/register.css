@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+            font-family: Arial, sans-serif;
+            padding: 0;
+        margin: 0;
+
+        }
+        
+        section div{
+            background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../background.jpg);
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+        #Wel{
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            font-size: 38px;
+            color: azure;
+        }
+#regTable{
+    padding-left: 42%;
+    padding-top: 5%;
+
+}
+#footer{
+        padding: 0 0 30PX 0;
+        color: white;
+        font-size: 14px;
+       }
+       #footer .footer-top{
+        background: darkcyan;
+        padding: 60px 0 30px 0;
+        font-style: oblique;
+        font-family: sans-serif;
+       }
+       #footer .footer-top .footer-info{
+        margin-bottom: 30px;
+       }
+       #footer .footer-top .footer-info h3{
+        font-size: 34;
+        margin: :0 0 20px 0;
+        padding:2px 0 2px 0;
+        line-height: 1;
+        font-family: sans-serif;
+        font-weight: 400;
+        letter-spacing: 3px;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+       }
+        #footer .footer-top .footer-info p{
+            font-size: 13px;
+            line-height: 24px;
+            margin-bottom: 0;
+            font-family: sans-serif;
+            color: white;
+            text-align: justify;
+        }
+       /*#footer .footer-top .social-links a{
+        font-size: 18px;
+        display: inline-block;
+        line-height: 1;
+        background: blue;
+        color: red;
+        padding: 8px 0;
+        border-radius: 50%;
+        margin-right: 4px;
+        text-align: center;
+        width: 36px;
+        height: 36px;
+        transition: 0.3s;
+       }*/
+        #footer .footer-top .social-links a:hover{
+            background: white;
+            color: black;
+        }
+         #footer .footer-top h4{
+            font-size: 14px;
+            font-weight: bold;
+            color: white;
+            text-transform: uppercase;
+            position: relative;
+            padding-bottom: 10px;
+
+         }
+         #footer .footer-top .footer-links{
+            margin-bottom: 30px;
+         }
+          #footer .footer-top .footer-links ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+          }
+           #footer .footer-top .footer-links ul li{
+            padding: 8px 0;
+           }
+           #footer .footer-top .footer-links ul li:firt child{
+            padding-top: 0;
+           }
+           #footer .footer-top .footer-links ul li a{
+            color: #ecf5ff;
+           }
+           #footer .footer-top .footer-links ul li a:hover{
+            color: #74b5fc;
+           }
+           #footer .footer-top .footer-contact{
+            margin-bottom: 30px;
+           }
+          #footer .footer-top .footer-contact p{
+            line-height: 26px;
+          }
+          #footer .footer-top .footer-contact
